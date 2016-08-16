@@ -7,12 +7,18 @@
 //
 
 #import "LFAppDelegate.h"
+#import "LTClient.h"
 
 @implementation LFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [LTClient downloadIMServerCfgWithServerIP:@"im.wiseuc.com" complete:^(NSDictionary *IMServerCfgDict) {
+        NSLog(@"%@",IMServerCfgDict);
+    }];
+    
     return YES;
 }
 

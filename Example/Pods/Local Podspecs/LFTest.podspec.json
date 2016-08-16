@@ -1,0 +1,28 @@
+{
+  "name": "LFTest",
+  "version": "0.1.0",
+  "summary": "A short description of LFTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wulinfeng198810/LFTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "吴林峰": "1486634154@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wulinfeng198810/LFTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "LFTest/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
+}

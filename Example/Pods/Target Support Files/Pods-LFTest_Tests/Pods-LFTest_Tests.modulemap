@@ -1,0 +1,6 @@
+framework module Pods_LFTest_Tests {
+  umbrella header "Pods-LFTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
