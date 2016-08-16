@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LFTest_Example' do
+  pod 'LFTest', :path => '../'
+
+  target 'LFTest_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
